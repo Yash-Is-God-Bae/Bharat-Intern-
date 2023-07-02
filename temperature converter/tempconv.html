@@ -80,13 +80,12 @@
         inputs.forEach(input => {
             // now adding input event for all inputs
             input.addEventListener("input", e => {
-                // get id from the input takes place on
                 const unit = e.target.id;
                 // now get the value from input take place on
                 const v = parseInt(e.target.value)            //parse INT change stirng to variable
-                // for celcius
+                // for celsius
                 if (unit == "celsius") {
-                    // conver value to farnite
+                    // conver value to fahrenheit
                     f.value = parseFloat((v * 1.8) + 32).toFixed(4) * 1;  // parse flot and tofix is use to set the range of maximum decimles
                     k.value = parseFloat(v + 273.15).toFixed(4) * 1;
                 }
