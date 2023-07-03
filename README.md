@@ -1,2 +1,2 @@
-# Netflix-clone
-it is a clone of netflix' homepage created using html and css only
+# Bharat Intern Tasks
+Tasks comprises of Netflix homepage and temperature converter using html,css and js.
